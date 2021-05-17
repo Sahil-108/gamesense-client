@@ -13,7 +13,7 @@ public class CapeUtil {
 
 	public CapeUtil() {
 		try {
-			URL capesList = new URL("https://raw.githubusercontent.com/Sahil-108/gamesense-assets/main/files/capeslist.txt");
+			URL capesList = new URL("https://raw.githubusercontent.com/IUDevman/gamesense-assets/main/files/capeslist.txt");
 			BufferedReader in = new BufferedReader(new InputStreamReader(capesList.openStream()));
 			String inputLine;
 			while ((inputLine = in.readLine()) != null) {
